@@ -10,7 +10,7 @@ void explainQueue(){
     q.emplace(4) ;
 
     q.back() += 5  ;  //add 4 i.e 4+5 = 9
-    cout<<q.back() ;  //it will print 9
+    cout<<q.back() ;  //it will print 9 due to above
 
     cout<<q.front() ;
 

@@ -31,4 +31,9 @@ int main() {
     vector<int> initializedVector(5, 100); // Creates a vector of size 5 with all elements initialized to 100
 
     return 0;
+
+    //insert function using ITERTATORS
+    vector<int>v(2,100) ;
+    v.insert(v.begin(),300) ;
+    v.insert(v.begin()+1,2, 10) ; //{300,10,10,100,100}
 }
